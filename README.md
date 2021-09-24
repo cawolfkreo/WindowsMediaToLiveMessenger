@@ -1,5 +1,11 @@
 # MSN music sync for Windwos 10
 
+# Build
+
+```CMD
+dotnet publish -r win-x86 /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true --output ".\Publish"
+```
+
 ## Documentation used:
 
 In order to create this project I used documentation and example from different people, this is the list of places where I received the information.
