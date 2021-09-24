@@ -43,7 +43,7 @@ The way I deploy this project is by using a command from the command line (the b
 1. Open the `TaskTrayUI` folder.
 2. Create a folder named `Publish`.
 3. Copy the `Resources` folder and paste it in the one you just created.
-5. On the Visual Studio IDE open a [development terminal](https://devblogs.microsoft.com/visualstudio/say-hello-to-the-new-visual-studio-terminal/?WT.mc_id=-blog-scottha) or just open CMD, powershell or any terminal you have on Windows on the project's folder ~~(psst, it's the folder with the `.sln` file is)~~ and paste the following command:
+5. On the Visual Studio IDE open a [development terminal](https://devblogs.microsoft.com/visualstudio/say-hello-to-the-new-visual-studio-terminal/?WT.mc_id=-blog-scottha) or just open CMD, powershell or any terminal you have on Windows on the project's folder ~~(psst, it's the folder where the `.sln` file is)~~ and paste the following command:
 
 ```CMD
 dotnet publish -r win-x86 /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true --output ".\TasktrayUI\Publish"
@@ -68,7 +68,7 @@ In order to create this project I used documentation projects and examples from 
 </p>
 </details>
 
-## Authors
+## Author
 * [__Camilo Zambrano Votto__](https://github.com/cawolfkreo)
 
 ## Contributing
