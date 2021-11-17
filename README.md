@@ -1,4 +1,4 @@
-# MSN music sync for Windwos 10
+# MSN music sync for Windows 10
 
 ## Table of Contents
 <details><summary>Expand to see contents</summary>
