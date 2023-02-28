@@ -67,8 +67,8 @@ namespace AudioSyncMSNUI.WindowsMediaToLiveMessenger
         /// song name, artist and album name
         /// respectively.
         /// </summary>
-        private string _format = "On Windows 10: ♪♫{1} - {0}♪♫";
-        private const string _formatDefault = "On Windows 10: ♪♫{1} - {0}♪♫";
+        private string _format = "{1} - {0}";
+        private const string _formatDefault = "{1} - {0}";
 
         /// <summary>
         /// This is the format of the message that 
