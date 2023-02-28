@@ -63,7 +63,7 @@ namespace AudioSyncMSNUI.WindowsMediaToLiveMessenger
         /// <summary>
         /// This is the format of the message that 
         /// will be displayed on MSN. The values 
-        /// "{0}", "{1}" and "{3}", represent the
+        /// "{0}", "{1}" and "{2}", represent the
         /// song name, artist and album name
         /// respectively.
         /// </summary>
@@ -73,7 +73,7 @@ namespace AudioSyncMSNUI.WindowsMediaToLiveMessenger
         /// <summary>
         /// This is the format of the message that 
         /// will be displayed on MSN. The values 
-        /// "{0}", "{1}" and "{3}", represent the
+        /// "{0}", "{1}" and "{2}", represent the
         /// song name, artist and album name
         /// respectively.
         /// </summary>
