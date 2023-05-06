@@ -63,17 +63,17 @@ namespace AudioSyncMSNUI.WindowsMediaToLiveMessenger
         /// <summary>
         /// This is the format of the message that 
         /// will be displayed on MSN. The values 
-        /// "{0}", "{1}" and "{3}", represent the
+        /// "{0}", "{1}" and "{2}", represent the
         /// song name, artist and album name
         /// respectively.
         /// </summary>
-        private string _format = "On Windows 10: ♪♫{1} - {0}♪♫";
-        private const string _formatDefault = "On Windows 10: ♪♫{1} - {0}♪♫";
+        private string _format = "{1} - {0}";
+        private const string _formatDefault = "{1} - {0}";
 
         /// <summary>
         /// This is the format of the message that 
         /// will be displayed on MSN. The values 
-        /// "{0}", "{1}" and "{3}", represent the
+        /// "{0}", "{1}" and "{2}", represent the
         /// song name, artist and album name
         /// respectively.
         /// </summary>
